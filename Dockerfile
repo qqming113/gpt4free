@@ -29,4 +29,4 @@ RUN cp ./gui/streamlit_app.py .
 
 CMD ["streamlit", "run", "streamlit_app.py"]
 
-EXPOSE 80
+EXPOSE 8501
